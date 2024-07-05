@@ -1,0 +1,61 @@
+.list-item {
+  display: flex;
+  margin: 20px 0px;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+  text-align: center;
+}
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+  background-color: transparent;
+  border-radius: 50%;
+
+  @media screen and (max-width: 567px) {
+    font-size: 15px;
+  }
+}
+
+.button-complete {
+  color: #ff6c6c;
+  margin-right: 10px;
+}
+.button-edit {
+  color: #e2d029;
+  margin-right: 10px;
+}
+.button-delete {
+  color: lightgreen;
+}
+.check-button {
+  background-color: white;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  border: 0px;
+  border-radius: 20px;
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+}
+.complete {
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+  opacity: 0.6;
+  text-decoration-color: #ff6c6c;
+}
+
+.list {
+  width: 220px;
+  height: 60px;
+  color: #ccc;
+  font-family: 'Roboto';
+  padding: 5px;
+  font-size: 25px;
+  margin-top: 0px;
+}

@@ -1,0 +1,38 @@
+.task-input {
+  outline: none;
+  width: 250px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #c89666;
+  border-radius: 10px;
+
+  @media screen and (max-width: 567px) {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+  }
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.button-add {
+  width: 70px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+  background-color: #f1af71;
+
+  @media screen and (max-width: 567px) {
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+  }
+}
